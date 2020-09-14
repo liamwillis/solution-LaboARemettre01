@@ -19,13 +19,13 @@ void main()
 
 	std::cin >> nombre1;  // le clavier doit lire le nombre
 
-	if (nombre1 & 1) //bloc instruction si nombre pair
+	if (nombre1 % 2 == 0 ) //bloc instruction si nombre pair
 	{
-		std::cout << nombre1 << " est un nombre impair";
+		std::cout << nombre1 << " est un nombre pair";
 	}
 	else              //bloc instruction pour nombre impair
 	{
-		std::cout << nombre1 << " est est un nombre pair";
+		std::cout << nombre1 << " est est un nombre impair";
 	}
 } 
 // le plan test

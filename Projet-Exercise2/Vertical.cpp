@@ -18,18 +18,28 @@ void main()
 
 	std::cin >> z1;        // déclare la variable
 
-	if (z1 <= 9999) (z1 >= 100000);        // si le nombre est trop petit ou trop grand:
+	if (z1 <= 9999)         // si le nombre est trop petit ou trop grand:
 	{
 		std::cout << " ce nombre ne contient pas 5 chiffres";     //afficher ca a l'écran
 	}
 
 	else       //sinon, projeter le nombre verticalement
 	{
-		std::cout << z1 / 10000;
-		std::cout << z1 / 1000;
-		std::cout << z1 / 100;
-		std::cout << z1 / 10;
-		std::cout << z1 / 1;
+		if (z1 > 99999)
+		{
+			std::cout << " ce nombre ne contient pas 5 chiffres";     //afficher ca a l'écran
+	    }
+		else
+		{
+
+		
+
+		std::cout << z1 / 10000 << std::endl;
+		std::cout << z1 / 1000 << std::endl;
+		std::cout << z1 / 100 << std::endl;
+		std::cout << z1 / 10 << std::endl;
+		std::cout << z1 / 1 << std::endl;
+	    }
 	}
 
 
@@ -45,6 +55,10 @@ void main()
 			   123
 			   1234
 			   12345
+	           
+			   
+			   
+			   
 
 
 
